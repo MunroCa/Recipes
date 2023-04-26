@@ -1,12 +1,16 @@
 
+
+
 html {
     padding: 20px;
     background-color: black;
     border-color: red;
+    font-family: 'Bruno Ace', cursive;
 }
 
 h1 {
     padding-left: 10%;
+    color: orange;
 }
 
 div {
@@ -24,16 +28,25 @@ img {
     border-radius: 10%;
 }
 
-img .nav-list li{
+h2 {
+    color: yellow;
+}
+
+.nav-list li{
     padding-bottom: 0;
-    background-color: beige;
+    padding-left: 5%;
+    background-color: darkgray;
+    border-radius: 15px;
+    
 }
 
 .nav-list{
-    color: black;
-    border-color: brown;
-    border-style: solid;
-    border-radius: 15px;
-    background-color: cadetblue;
+    display: inline;
 }
+
+.nav-list img {
+    margin-top: 7px;
+}
+
+
 
