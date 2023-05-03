@@ -14,11 +14,11 @@ h1 {
 }
 
 div {
-    padding: 20px;
+    padding: 7.5px;
     color: white;
-    border-color: darkblue;
+   /* border-color: darkblue;
     border-style: solid;
-    border-radius: 3%;
+    border-radius: 3%;*/
     
 }
 
@@ -26,6 +26,7 @@ img {
     box-align: center;
     border-color: black;
     border-radius: 10%;
+    max-width: 20%;
 }
 
 h2 {
@@ -48,5 +49,9 @@ h2 {
     margin-top: 7px;
 }
 
-
+.images {
+    display: flex;
+    gap: 10px;
+    
+}
 
